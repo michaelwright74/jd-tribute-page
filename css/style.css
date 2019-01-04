@@ -1,0 +1,97 @@
+body {
+  color: #222831;
+  background-color: #ffe6eb;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#hero {
+  background-image: url(../img/JanetDevlinHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 30rem;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Caveat Brush', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: 'Caveat Brush', cursive;
+  color: #b55400;
+}
+
+a {
+  color:white;
+}
+
+a:hover {
+  color:#e3e3e3;
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: 'Caveat Brush', cursive;
+  background-color: #b55400;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+.btn-secondary {
+  background-color: #b55400;
+  border-color: #b55400;
+}
+
+.btn-secondary:hover {
+  background-color: #b55400;
+  border-color: #b55400;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+  background-color: #b55400;
+  border-color: #b55400;
+}
+
+.show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0;
+}
+
+#footer {
+  background-color: #b55400;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #ffe6eb;
+}
+
+
+
+@media (min-width: 992px) {
+  #hero {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+}
