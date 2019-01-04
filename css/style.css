@@ -79,7 +79,6 @@ a:hover {
 }
 
 
-
 @media (min-width: 992px) {
   #hero {
     height: 100vh;
@@ -90,18 +89,18 @@ a:hover {
   h1 {
     font-size: 6rem;
   }
-  
-  @media (max-width: 400px) {
+
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
   h1 {
     font-size: 3rem;
   }
 
   h2 {
     font-size: 2rem;
-  }
-}
-
-  h2 {
-    font-size: 4rem;
   }
 }
