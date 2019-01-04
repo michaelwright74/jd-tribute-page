@@ -78,6 +78,10 @@ a:hover {
   background-color: #ffe6eb;
 }
 
+#tribute-link {
+  color: #b55400;
+}
+
 
 @media (min-width: 992px) {
   #hero {
