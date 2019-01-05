@@ -82,6 +82,12 @@ a:hover {
   color: #b55400;
 }
 
+.dummy-anchor {
+  display: block;
+  height: 50px; /* header height */
+  margin-top: -50px; /* header height */
+  visibility: hidden;
+}
 
 @media (min-width: 992px) {
   #hero {
